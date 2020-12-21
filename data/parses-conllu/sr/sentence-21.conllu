@@ -1,0 +1,27 @@
+1	Skill	_	_	NN	_	5	nsubj	_	_
+2	without	_	_	IN	_	3	case	_	_
+3	imagination	_	_	NN	_	1	nmod	_	_
+4	is	_	_	VBZ	_	5	cop	_	_
+5	craftsmanship	_	_	NN	_	0	root	_	_
+6	and	_	_	CC	_	7	cc	_	_
+7	gives	_	_	VBZ	_	5	conj	_	_
+8	us	_	_	PRP	_	7	iobj	_	_
+9	many	_	_	JJ	_	11	amod	_	_
+10	useful	_	_	JJ	_	11	amod	_	_
+11	objects	_	_	NNS	_	7	obj	_	_
+12	such	_	_	JJ	_	16	case	_	_
+13	as	_	_	IN	_	12	fixed	_	_
+14	wickerwork	_	_	NN	_	16	compound	_	_
+15	picnic	_	_	NN	_	16	compound	_	_
+16	baskets	_	_	NNS	_	11	nmod	_	_
+17	.	_	_	.	_	5	punct	_	_
+
+1	Imagination	_	_	NN	_	4	nsubj	_	_
+2	without	_	_	IN	_	3	case	_	_
+3	skill	_	_	NN	_	1	nmod	_	_
+4	gives	_	_	VBZ	_	0	root	_	_
+5	us	_	_	PRP	_	4	iobj	_	_
+6	modern	_	_	JJ	_	7	amod	_	_
+7	art	_	_	NN	_	4	obj	_	_
+8	.	_	_	.	_	4	punct	_	_
+

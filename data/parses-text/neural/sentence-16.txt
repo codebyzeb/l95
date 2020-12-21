@@ -1,0 +1,85 @@
+Document: ID=sentence-16.txt (1 sentences, 38 tokens)
+
+Sentence #1 (38 tokens):
+Making these decisions requires sophisticated knowledge of syntax; tagging manuals (Santorini, 1990) give various heuristics that can help human coders make these decisions and that can also provide useful features for automatic taggers.
+
+Tokens:
+[Text=Making CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=VBG]
+[Text=these CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=DT]
+[Text=decisions CharacterOffsetBegin=13 CharacterOffsetEnd=22 PartOfSpeech=NNS]
+[Text=requires CharacterOffsetBegin=23 CharacterOffsetEnd=31 PartOfSpeech=VBZ]
+[Text=sophisticated CharacterOffsetBegin=32 CharacterOffsetEnd=45 PartOfSpeech=JJ]
+[Text=knowledge CharacterOffsetBegin=46 CharacterOffsetEnd=55 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=IN]
+[Text=syntax CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=NN]
+[Text=; CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=:]
+[Text=tagging CharacterOffsetBegin=67 CharacterOffsetEnd=74 PartOfSpeech=VBG]
+[Text=manuals CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=NNS]
+[Text=( CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=-LRB-]
+[Text=Santorini CharacterOffsetBegin=84 CharacterOffsetEnd=93 PartOfSpeech=NNP]
+[Text=, CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=,]
+[Text=1990 CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=CD]
+[Text=) CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=-RRB-]
+[Text=give CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=VBP]
+[Text=various CharacterOffsetBegin=106 CharacterOffsetEnd=113 PartOfSpeech=JJ]
+[Text=heuristics CharacterOffsetBegin=114 CharacterOffsetEnd=124 PartOfSpeech=NNS]
+[Text=that CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=WDT]
+[Text=can CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=MD]
+[Text=help CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=VB]
+[Text=human CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=JJ]
+[Text=coders CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=NNS]
+[Text=make CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=VBP]
+[Text=these CharacterOffsetBegin=157 CharacterOffsetEnd=162 PartOfSpeech=DT]
+[Text=decisions CharacterOffsetBegin=163 CharacterOffsetEnd=172 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=CC]
+[Text=that CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=DT]
+[Text=can CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=MD]
+[Text=also CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=RB]
+[Text=provide CharacterOffsetBegin=191 CharacterOffsetEnd=198 PartOfSpeech=VB]
+[Text=useful CharacterOffsetBegin=199 CharacterOffsetEnd=205 PartOfSpeech=JJ]
+[Text=features CharacterOffsetBegin=206 CharacterOffsetEnd=214 PartOfSpeech=NNS]
+[Text=for CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=IN]
+[Text=automatic CharacterOffsetBegin=219 CharacterOffsetEnd=228 PartOfSpeech=JJ]
+[Text=taggers CharacterOffsetBegin=229 CharacterOffsetEnd=236 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, requires-4)
+dep(requires-4, Making-1)
+det(decisions-3, these-2)
+nsubj(requires-4, decisions-3)
+amod(knowledge-6, sophisticated-5)
+obj(requires-4, knowledge-6)
+case(syntax-8, of-7)
+nmod:of(knowledge-6, syntax-8)
+punct(requires-4, ;-9)
+amod(manuals-11, tagging-10)
+nsubj(give-17, manuals-11)
+punct(Santorini-13, (-12)
+appos(manuals-11, Santorini-13)
+punct(Santorini-13, ,-14)
+obl:tmod(Santorini-13, 1990-15)
+punct(Santorini-13, )-16)
+parataxis(requires-4, give-17)
+amod(heuristics-19, various-18)
+obj(give-17, heuristics-19)
+nsubj(help-22, heuristics-19)
+ref(heuristics-19, that-20)
+aux(help-22, can-21)
+acl:relcl(heuristics-19, help-22)
+amod(coders-24, human-23)
+obj(help-22, coders-24)
+dep(requires-4, make-25)
+det(decisions-27, these-26)
+obj(make-25, decisions-27)
+cc(provide-32, and-28)
+nsubj(provide-32, that-29)
+aux(provide-32, can-30)
+advmod(provide-32, also-31)
+conj:and(requires-4, provide-32)
+amod(features-34, useful-33)
+obj(provide-32, features-34)
+case(taggers-37, for-35)
+amod(taggers-37, automatic-36)
+nmod:for(features-34, taggers-37)
+punct(requires-4, .-38)

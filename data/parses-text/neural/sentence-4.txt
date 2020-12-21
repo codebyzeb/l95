@@ -1,0 +1,29 @@
+Document: ID=sentence-4.txt (1 sentences, 10 tokens)
+
+Sentence #1 (10 tokens):
+Kim and Sandy both broke up with their partners.
+
+Tokens:
+[Text=Kim CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=CC]
+[Text=Sandy CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=NNP]
+[Text=both CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT]
+[Text=broke CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=VBD]
+[Text=up CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=RP]
+[Text=with CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=IN]
+[Text=their CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=PRP$]
+[Text=partners CharacterOffsetBegin=39 CharacterOffsetEnd=47 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=47 CharacterOffsetEnd=48 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, broke-5)
+nsubj(broke-5, Kim-1)
+cc(Sandy-3, and-2)
+conj:and(Kim-1, Sandy-3)
+nsubj(broke-5, Sandy-3)
+dep(Kim-1, both-4)
+compound:prt(broke-5, up-6)
+case(partners-9, with-7)
+nmod:poss(partners-9, their-8)
+obl:with(broke-5, partners-9)
+punct(broke-5, .-10)

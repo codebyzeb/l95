@@ -1,0 +1,108 @@
+Document: ID=sentence-14.txt (1 sentences, 30 tokens)
+
+Sentence #1 (30 tokens):
+My wildest dream is to build a POS tagger which processes 10K words per second and uses only 1MB of RAM, but it may prove too hard.
+
+Tokens:
+[Text=My CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=PRP$]
+[Text=wildest CharacterOffsetBegin=3 CharacterOffsetEnd=10 PartOfSpeech=JJ]
+[Text=dream CharacterOffsetBegin=11 CharacterOffsetEnd=16 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=VBZ]
+[Text=to CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=TO]
+[Text=build CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=VB]
+[Text=a CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=DT]
+[Text=POS CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=NN]
+[Text=tagger CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=NN]
+[Text=which CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=WDT]
+[Text=processes CharacterOffsetBegin=48 CharacterOffsetEnd=57 PartOfSpeech=VBZ]
+[Text=10K CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=NN]
+[Text=words CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=NNS]
+[Text=per CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=IN]
+[Text=second CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=CC]
+[Text=uses CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=VBZ]
+[Text=only CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=RB]
+[Text=1 CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=CD]
+[Text=MB CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=IN]
+[Text=RAM CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=NNP]
+[Text=, CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=CC]
+[Text=it CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP]
+[Text=may CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=MD]
+[Text=prove CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=VB]
+[Text=too CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=RB]
+[Text=hard CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (S
+      (NP (PRP$ My) (JJ wildest) (NN dream))
+      (VP (VBZ is)
+        (S
+          (VP (TO to)
+            (VP (VB build)
+              (NP
+                (NP (DT a) (NN POS) (NN tagger))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP
+                      (VP (VBZ processes)
+                        (NP
+                          (NP (NN 10K) (NNS words))
+                          (PP (IN per)
+                            (NP (NN second)))))
+                      (CC and)
+                      (VP (VBZ uses)
+                        (NP
+                          (NP (RB only) (CD 1) (NN MB))
+                          (PP (IN of)
+                            (NP (NNP RAM))))))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (MD may)
+        (VP (VB prove)
+          (ADJP (RB too) (JJ hard)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, is-4)
+nmod:poss(dream-3, My-1)
+amod(dream-3, wildest-2)
+nsubj(is-4, dream-3)
+nsubj:xsubj(build-6, dream-3)
+mark(build-6, to-5)
+xcomp(is-4, build-6)
+det(tagger-9, a-7)
+dep(tagger-9, POS-8)
+obj(build-6, tagger-9)
+nsubj(processes-11, tagger-9)
+nsubj(uses-17, tagger-9)
+ref(tagger-9, which-10)
+acl:relcl(tagger-9, processes-11)
+compound(words-13, 10K-12)
+obj(processes-11, words-13)
+case(second-15, per-14)
+nmod:per(words-13, second-15)
+cc(uses-17, and-16)
+acl:relcl(tagger-9, uses-17)
+conj:and(processes-11, uses-17)
+advmod(MB-20, only-18)
+nummod(MB-20, 1-19)
+obj(uses-17, MB-20)
+case(RAM-22, of-21)
+nmod:of(MB-20, RAM-22)
+punct(is-4, ,-23)
+cc(prove-27, but-24)
+nsubj(prove-27, it-25)
+aux(prove-27, may-26)
+conj:but(is-4, prove-27)
+advmod(hard-29, too-28)
+xcomp(prove-27, hard-29)
+punct(is-4, .-30)

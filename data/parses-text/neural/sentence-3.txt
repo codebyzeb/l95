@@ -1,0 +1,31 @@
+Document: ID=sentence-3.txt (1 sentences, 11 tokens)
+
+Sentence #1 (11 tokens):
+The horses were broken in and ridden in two weeks.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=horses CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNS]
+[Text=were CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=VBD]
+[Text=broken CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=RP]
+[Text=and CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=CC]
+[Text=ridden CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=IN]
+[Text=two CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=CD]
+[Text=weeks CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, broken-4)
+det(horses-2, The-1)
+nsubj:pass(broken-4, horses-2)
+nsubj:pass(ridden-7, horses-2)
+aux:pass(broken-4, were-3)
+compound:prt(broken-4, in-5)
+cc(ridden-7, and-6)
+conj:and(broken-4, ridden-7)
+case(weeks-10, in-8)
+nummod(weeks-10, two-9)
+obl:in(ridden-7, weeks-10)
+punct(broken-4, .-11)

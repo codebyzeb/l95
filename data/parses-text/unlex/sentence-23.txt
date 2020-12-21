@@ -1,0 +1,139 @@
+Document: ID=sentence-23.txt (1 sentences, 41 tokens)
+
+Sentence #1 (41 tokens):
+But far fewer people fully understand how the Media Lab operates, fits into MIT, and encourages such a creative environment; about half of the anniversary celebration’s program focused on simply defining what the Media Lab is.
+
+Tokens:
+[Text=But CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=CC]
+[Text=far CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=RB]
+[Text=fewer CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=JJR]
+[Text=people CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=NNS]
+[Text=fully CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=RB]
+[Text=understand CharacterOffsetBegin=27 CharacterOffsetEnd=37 PartOfSpeech=VBP]
+[Text=how CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=WRB]
+[Text=the CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=DT]
+[Text=Media CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=NNP]
+[Text=Lab CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=NNP]
+[Text=operates CharacterOffsetBegin=56 CharacterOffsetEnd=64 PartOfSpeech=VBZ]
+[Text=, CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=,]
+[Text=fits CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=VBZ]
+[Text=into CharacterOffsetBegin=71 CharacterOffsetEnd=75 PartOfSpeech=IN]
+[Text=MIT CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=NNP]
+[Text=, CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=CC]
+[Text=encourages CharacterOffsetBegin=85 CharacterOffsetEnd=95 PartOfSpeech=VBZ]
+[Text=such CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=PDT]
+[Text=a CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=DT]
+[Text=creative CharacterOffsetBegin=103 CharacterOffsetEnd=111 PartOfSpeech=JJ]
+[Text=environment CharacterOffsetBegin=112 CharacterOffsetEnd=123 PartOfSpeech=NN]
+[Text=; CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=:]
+[Text=about CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=RB]
+[Text=half CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=DT]
+[Text=anniversary CharacterOffsetBegin=143 CharacterOffsetEnd=154 PartOfSpeech=NN]
+[Text=celebration CharacterOffsetBegin=155 CharacterOffsetEnd=166 PartOfSpeech=NN]
+[Text=’s CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=POS]
+[Text=program CharacterOffsetBegin=169 CharacterOffsetEnd=176 PartOfSpeech=NN]
+[Text=focused CharacterOffsetBegin=177 CharacterOffsetEnd=184 PartOfSpeech=VBD]
+[Text=on CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=IN]
+[Text=simply CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=RB]
+[Text=defining CharacterOffsetBegin=195 CharacterOffsetEnd=203 PartOfSpeech=VBG]
+[Text=what CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=WP]
+[Text=the CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=DT]
+[Text=Media CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NNP]
+[Text=Lab CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=NNP]
+[Text=is CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=VBZ]
+[Text=. CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S (CC But)
+    (S
+      (NP
+        (ADJP (RB far) (JJR fewer))
+        (NNS people))
+      (ADVP (RB fully))
+      (VP (VBP understand)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP (DT the) (NNP Media) (NNP Lab))
+            (VP
+              (VP (VBZ operates))
+              (, ,)
+              (VP (VBZ fits)
+                (PP (IN into)
+                  (NP (NNP MIT))))
+              (, ,)
+              (CC and)
+              (VP (VBZ encourages)
+                (NP (PDT such) (DT a) (JJ creative) (NN environment))))))))
+    (: ;)
+    (S
+      (NP
+        (NP
+          (QP (RB about) (NN half)))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN anniversary) (NN celebration) (POS ’s))
+            (NN program))))
+      (VP (VBD focused)
+        (PP (IN on)
+          (S
+            (ADVP (RB simply))
+            (VP (VBG defining)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (DT the) (NNP Media) (NNP Lab))
+                  (VP (VBZ is)))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, understand-6)
+cc(understand-6, But-1)
+advmod(fewer-3, far-2)
+amod(people-4, fewer-3)
+nsubj(understand-6, people-4)
+advmod(understand-6, fully-5)
+advmod(operates-11, how-7)
+det(Lab-10, the-8)
+compound(Lab-10, Media-9)
+nsubj(operates-11, Lab-10)
+nsubj(fits-13, Lab-10)
+nsubj(encourages-18, Lab-10)
+ccomp(understand-6, operates-11)
+punct(operates-11, ,-12)
+ccomp(understand-6, fits-13)
+conj:and(operates-11, fits-13)
+case(MIT-15, into-14)
+obl:into(fits-13, MIT-15)
+punct(operates-11, ,-16)
+cc(encourages-18, and-17)
+ccomp(understand-6, encourages-18)
+conj:and(operates-11, encourages-18)
+det:predet(environment-22, such-19)
+det(environment-22, a-20)
+amod(environment-22, creative-21)
+obj(encourages-18, environment-22)
+punct(understand-6, ;-23)
+advmod(half-25, about-24)
+nsubj(focused-32, half-25)
+case(program-31, of-26)
+det(celebration-29, the-27)
+compound(celebration-29, anniversary-28)
+nmod:poss(program-31, celebration-29)
+case(celebration-29, ’s-30)
+nmod:of(half-25, program-31)
+parataxis(understand-6, focused-32)
+mark(defining-35, on-33)
+advmod(defining-35, simply-34)
+advcl:on(focused-32, defining-35)
+obj(is-40, what-36)
+det(Lab-39, the-37)
+compound(Lab-39, Media-38)
+nsubj(is-40, Lab-39)
+ccomp(defining-35, is-40)
+punct(understand-6, .-41)

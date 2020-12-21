@@ -1,0 +1,87 @@
+Document: ID=sentence-22.txt (2 sentences, 35 tokens)
+
+Sentence #1 (24 tokens):
+An MoD spokesman said: “Surveys of Astute have now been completed and she will proceed to Faslane under her own power.
+
+Tokens:
+[Text=An CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=DT]
+[Text=MoD CharacterOffsetBegin=3 CharacterOffsetEnd=6 PartOfSpeech=NN]
+[Text=spokesman CharacterOffsetBegin=7 CharacterOffsetEnd=16 PartOfSpeech=NN]
+[Text=said CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=VBD]
+[Text=: CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=:]
+[Text=“ CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=``]
+[Text=Surveys CharacterOffsetBegin=24 CharacterOffsetEnd=31 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN]
+[Text=Astute CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=NNP]
+[Text=have CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=VBP]
+[Text=now CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=RB]
+[Text=been CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=VBN]
+[Text=completed CharacterOffsetBegin=56 CharacterOffsetEnd=65 PartOfSpeech=VBN]
+[Text=and CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=CC]
+[Text=she CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=PRP]
+[Text=will CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=MD]
+[Text=proceed CharacterOffsetBegin=79 CharacterOffsetEnd=86 PartOfSpeech=VB]
+[Text=to CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN]
+[Text=Faslane CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=JJ]
+[Text=under CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=IN]
+[Text=her CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=PRP$]
+[Text=own CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=JJ]
+[Text=power CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, said-4)
+det(spokesman-3, An-1)
+compound(spokesman-3, MoD-2)
+nsubj(said-4, spokesman-3)
+punct(said-4, :-5)
+punct(said-4, “-6)
+nsubj:pass(completed-13, Surveys-7)
+case(Astute-9, of-8)
+nmod:of(Surveys-7, Astute-9)
+aux(completed-13, have-10)
+advmod(completed-13, now-11)
+aux:pass(completed-13, been-12)
+ccomp(said-4, completed-13)
+cc(proceed-17, and-14)
+nsubj(proceed-17, she-15)
+aux(proceed-17, will-16)
+ccomp(said-4, proceed-17)
+conj:and(completed-13, proceed-17)
+case(Faslane-19, to-18)
+obl:to(proceed-17, Faslane-19)
+case(power-23, under-20)
+nmod:poss(power-23, her-21)
+amod(power-23, own-22)
+obl:under(proceed-17, power-23)
+punct(said-4, .-24)
+
+Sentence #2 (11 tokens):
+She is being escorted by tugs and HMS Shoreham.”
+
+Tokens:
+[Text=She CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=VBZ]
+[Text=being CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=VBG]
+[Text=escorted CharacterOffsetBegin=132 CharacterOffsetEnd=140 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=IN]
+[Text=tugs CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=CC]
+[Text=HMS CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=NNP]
+[Text=Shoreham CharacterOffsetBegin=157 CharacterOffsetEnd=165 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=.]
+[Text=” CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech='']
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, escorted-4)
+nsubj:pass(escorted-4, She-1)
+aux(escorted-4, is-2)
+aux:pass(escorted-4, being-3)
+case(tugs-6, by-5)
+obl:agent(escorted-4, tugs-6)
+cc(Shoreham-9, and-7)
+compound(Shoreham-9, HMS-8)
+obl:agent(escorted-4, Shoreham-9)
+conj:and(tugs-6, Shoreham-9)
+punct(escorted-4, .-10)
+punct(escorted-4, ”-11)

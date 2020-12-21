@@ -1,0 +1,8 @@
+<evaluation>
+<parameter name="Metric">
+	<value>self</value>
+</parameter>
+<parameter name="GroupBy">
+	<value format="precision|recall|parsercounter">Deprel</value>
+</parameter>
+</evaluation>

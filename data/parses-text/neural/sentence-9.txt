@@ -1,0 +1,39 @@
+Document: ID=sentence-9.txt (1 sentences, 15 tokens)
+
+Sentence #1 (15 tokens):
+The veterans who I thought that we would meet at the reunion were dead.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=veterans CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNS]
+[Text=who CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=WP]
+[Text=I CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=PRP]
+[Text=thought CharacterOffsetBegin=19 CharacterOffsetEnd=26 PartOfSpeech=VBD]
+[Text=that CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=IN]
+[Text=we CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=PRP]
+[Text=would CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=MD]
+[Text=meet CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=VB]
+[Text=at CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=DT]
+[Text=reunion CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NN]
+[Text=were CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=VBD]
+[Text=dead CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, dead-14)
+det(veterans-2, The-1)
+obj(thought-5, veterans-2)
+nsubj(dead-14, veterans-2)
+ref(veterans-2, who-3)
+nsubj(thought-5, I-4)
+acl:relcl(veterans-2, thought-5)
+mark(meet-9, that-6)
+nsubj(meet-9, we-7)
+aux(meet-9, would-8)
+ccomp(thought-5, meet-9)
+case(reunion-12, at-10)
+det(reunion-12, the-11)
+obl:at(meet-9, reunion-12)
+cop(dead-14, were-13)
+punct(dead-14, .-15)

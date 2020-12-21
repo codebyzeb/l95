@@ -1,0 +1,59 @@
+Document: ID=sentence-13.txt (1 sentences, 25 tokens)
+
+Sentence #1 (25 tokens):
+The long and lonely road to redemption begins with self-reflection: the need to delve inwards to deconstruct layers of psychological obfuscation.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=long CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=JJ]
+[Text=and CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CC]
+[Text=lonely CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=JJ]
+[Text=road CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=IN]
+[Text=redemption CharacterOffsetBegin=28 CharacterOffsetEnd=38 PartOfSpeech=NN]
+[Text=begins CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VBZ]
+[Text=with CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=IN]
+[Text=self CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NN]
+[Text=- CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=HYPH]
+[Text=reflection CharacterOffsetBegin=56 CharacterOffsetEnd=66 PartOfSpeech=NN]
+[Text=: CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=:]
+[Text=the CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=DT]
+[Text=need CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=TO]
+[Text=delve CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=VB]
+[Text=inwards CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=RB]
+[Text=to CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN]
+[Text=deconstruct CharacterOffsetBegin=97 CharacterOffsetEnd=108 PartOfSpeech=NN]
+[Text=layers CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN]
+[Text=psychological CharacterOffsetBegin=119 CharacterOffsetEnd=132 PartOfSpeech=JJ]
+[Text=obfuscation CharacterOffsetBegin=133 CharacterOffsetEnd=144 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, begins-8)
+det(road-5, The-1)
+amod(road-5, long-2)
+cc(lonely-4, and-3)
+conj:and(long-2, lonely-4)
+amod(road-5, lonely-4)
+nsubj(begins-8, road-5)
+case(redemption-7, to-6)
+nmod:to(road-5, redemption-7)
+case(reflection-12, with-9)
+compound(reflection-12, self-10)
+punct(reflection-12, --11)
+obl:with(begins-8, reflection-12)
+punct(begins-8, :-13)
+det(need-15, the-14)
+parataxis(begins-8, need-15)
+mark(delve-17, to-16)
+acl:to(need-15, delve-17)
+advmod(delve-17, inwards-18)
+case(layers-21, to-19)
+compound(layers-21, deconstruct-20)
+obl:to(delve-17, layers-21)
+case(obfuscation-24, of-22)
+amod(obfuscation-24, psychological-23)
+nmod:of(layers-21, obfuscation-24)
+punct(begins-8, .-25)

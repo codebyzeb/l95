@@ -1,0 +1,87 @@
+Document: ID=sentence-24.txt (1 sentences, 38 tokens)
+
+Sentence #1 (38 tokens):
+Instead of constantly worrying about funding, the faculty and students can focus on their project, with the exception of sponsors’ weeks, when they have to convince companies to start or continue their support.
+
+Tokens:
+[Text=Instead CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=RB]
+[Text=of CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=IN]
+[Text=constantly CharacterOffsetBegin=11 CharacterOffsetEnd=21 PartOfSpeech=RB]
+[Text=worrying CharacterOffsetBegin=22 CharacterOffsetEnd=30 PartOfSpeech=VBG]
+[Text=about CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=IN]
+[Text=funding CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=,]
+[Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT]
+[Text=faculty CharacterOffsetBegin=50 CharacterOffsetEnd=57 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=CC]
+[Text=students CharacterOffsetBegin=62 CharacterOffsetEnd=70 PartOfSpeech=NNS]
+[Text=can CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=MD]
+[Text=focus CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=VB]
+[Text=on CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN]
+[Text=their CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=PRP$]
+[Text=project CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=,]
+[Text=with CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=DT]
+[Text=exception CharacterOffsetBegin=108 CharacterOffsetEnd=117 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=IN]
+[Text=sponsors CharacterOffsetBegin=121 CharacterOffsetEnd=129 PartOfSpeech=NNS]
+[Text=’ CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech='']
+[Text=weeks CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=NNS]
+[Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=,]
+[Text=when CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=WRB]
+[Text=they CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=PRP]
+[Text=have CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=VBP]
+[Text=to CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=TO]
+[Text=convince CharacterOffsetBegin=156 CharacterOffsetEnd=164 PartOfSpeech=VB]
+[Text=companies CharacterOffsetBegin=165 CharacterOffsetEnd=174 PartOfSpeech=NNS]
+[Text=to CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=TO]
+[Text=start CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=VB]
+[Text=or CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=CC]
+[Text=continue CharacterOffsetBegin=187 CharacterOffsetEnd=195 PartOfSpeech=VB]
+[Text=their CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=PRP$]
+[Text=support CharacterOffsetBegin=202 CharacterOffsetEnd=209 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, focus-13)
+cc(worrying-4, Instead-1)
+fixed(Instead-1, of-2)
+advmod(worrying-4, constantly-3)
+advcl(focus-13, worrying-4)
+case(funding-6, about-5)
+obl:about(worrying-4, funding-6)
+punct(focus-13, ,-7)
+det(faculty-9, the-8)
+nsubj(focus-13, faculty-9)
+cc(students-11, and-10)
+conj:and(faculty-9, students-11)
+nsubj(focus-13, students-11)
+aux(focus-13, can-12)
+case(project-16, on-14)
+nmod:poss(project-16, their-15)
+obl:on(focus-13, project-16)
+punct(focus-13, ,-17)
+case(exception-20, with-18)
+det(exception-20, the-19)
+obl:with(focus-13, exception-20)
+case(weeks-24, of-21)
+compound(weeks-24, sponsors-22)
+punct(sponsors-22, ’-23)
+nmod:of(exception-20, weeks-24)
+punct(weeks-24, ,-25)
+advmod(convince-30, when-26)
+nsubj(convince-30, they-27)
+aux(convince-30, have-28)
+mark(convince-30, to-29)
+acl:relcl(weeks-24, convince-30)
+obj(convince-30, companies-31)
+nsubj:xsubj(start-33, companies-31)
+mark(start-33, to-32)
+xcomp(convince-30, start-33)
+cc(continue-35, or-34)
+xcomp(convince-30, continue-35)
+conj:or(start-33, continue-35)
+nmod:poss(support-37, their-36)
+obj(continue-35, support-37)
+punct(focus-13, .-38)

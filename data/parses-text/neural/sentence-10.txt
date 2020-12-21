@@ -1,0 +1,52 @@
+Document: ID=sentence-10.txt (1 sentences, 21 tokens)
+
+Sentence #1 (21 tokens):
+Natural disasters – storms, flooding, hurricanes – occur infrequently but cause devastation that strains resources to breaking point.
+
+Tokens:
+[Text=Natural CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=JJ]
+[Text=disasters CharacterOffsetBegin=8 CharacterOffsetEnd=17 PartOfSpeech=NNS]
+[Text=– CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=SYM]
+[Text=storms CharacterOffsetBegin=20 CharacterOffsetEnd=26 PartOfSpeech=NNS]
+[Text=, CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=,]
+[Text=flooding CharacterOffsetBegin=28 CharacterOffsetEnd=36 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=,]
+[Text=hurricanes CharacterOffsetBegin=38 CharacterOffsetEnd=48 PartOfSpeech=NNS]
+[Text=– CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=SYM]
+[Text=occur CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=VBP]
+[Text=infrequently CharacterOffsetBegin=57 CharacterOffsetEnd=69 PartOfSpeech=RB]
+[Text=but CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=CC]
+[Text=cause CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=VB]
+[Text=devastation CharacterOffsetBegin=80 CharacterOffsetEnd=91 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=WDT]
+[Text=strains CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=VBZ]
+[Text=resources CharacterOffsetBegin=105 CharacterOffsetEnd=114 PartOfSpeech=NNS]
+[Text=to CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=IN]
+[Text=breaking CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=VBG]
+[Text=point CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, occur-10)
+amod(disasters-2, Natural-1)
+nsubj(occur-10, disasters-2)
+nsubj(cause-13, disasters-2)
+dep(disasters-2, –-3)
+dep(disasters-2, storms-4)
+punct(storms-4, ,-5)
+conj(storms-4, flooding-6)
+punct(storms-4, ,-7)
+conj(storms-4, hurricanes-8)
+dep(disasters-2, –-9)
+advmod(occur-10, infrequently-11)
+cc(cause-13, but-12)
+conj:but(occur-10, cause-13)
+obj(cause-13, devastation-14)
+nsubj(strains-16, devastation-14)
+ref(devastation-14, that-15)
+acl:relcl(devastation-14, strains-16)
+obj(strains-16, resources-17)
+case(point-20, to-18)
+amod(point-20, breaking-19)
+obl:to(strains-16, point-20)
+punct(occur-10, .-21)

@@ -1,0 +1,8 @@
+<evaluation>
+<parameter name="Metric">
+	<value>LAS</value>
+</parameter>
+<parameter name="GroupBy">
+	<value format="parseraccuracy|treebankaccuracy|parsercounter">Deprel</value>
+</parameter>
+</evaluation>

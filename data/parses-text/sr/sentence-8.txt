@@ -1,0 +1,58 @@
+Document: ID=sentence-8.txt (1 sentences, 15 tokens)
+
+Sentence #1 (15 tokens):
+The only rabbit that I ever liked was eaten by my parents one summer.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=only CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=JJ]
+[Text=rabbit CharacterOffsetBegin=9 CharacterOffsetEnd=15 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=WDT]
+[Text=I CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=PRP]
+[Text=ever CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=RB]
+[Text=liked CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=VBD]
+[Text=was CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=VBD]
+[Text=eaten CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=IN]
+[Text=my CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=PRP$]
+[Text=parents CharacterOffsetBegin=50 CharacterOffsetEnd=57 PartOfSpeech=NNS]
+[Text=one CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=CD]
+[Text=summer CharacterOffsetBegin=62 CharacterOffsetEnd=68 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN rabbit))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (NP (PRP I))
+          (ADVP (RB ever))
+          (VP (VBD liked)))))
+    (VP (VBD was)
+      (VP (VBN eaten)
+        (PP (IN by)
+          (NP (PRP$ my) (NNS parents)))
+        (NP (CD one) (NN summer))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, eaten-9)
+det(rabbit-3, The-1)
+amod(rabbit-3, only-2)
+obj(liked-7, rabbit-3)
+nsubj:pass(eaten-9, rabbit-3)
+ref(rabbit-3, that-4)
+nsubj(liked-7, I-5)
+advmod(liked-7, ever-6)
+acl:relcl(rabbit-3, liked-7)
+aux:pass(eaten-9, was-8)
+case(parents-12, by-10)
+nmod:poss(parents-12, my-11)
+obl:agent(eaten-9, parents-12)
+nummod(summer-14, one-13)
+obl:tmod(eaten-9, summer-14)
+punct(eaten-9, .-15)

@@ -1,0 +1,119 @@
+Document: ID=sentence-15.txt (1 sentences, 53 tokens)
+
+Sentence #1 (53 tokens):
+English also has many words of more or less unique function, including interjections (oh, ah), negatives (no, not), politeness markers (please, thank you), and the existential ‘there’ (there are horses but not unicorns) among others.
+
+Tokens:
+[Text=English CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP]
+[Text=also CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=RB]
+[Text=has CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=VBZ]
+[Text=many CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=JJ]
+[Text=words CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=IN]
+[Text=more CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=RBR]
+[Text=or CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=CC]
+[Text=less CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=RBR]
+[Text=unique CharacterOffsetBegin=44 CharacterOffsetEnd=50 PartOfSpeech=JJ]
+[Text=function CharacterOffsetBegin=51 CharacterOffsetEnd=59 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=,]
+[Text=including CharacterOffsetBegin=61 CharacterOffsetEnd=70 PartOfSpeech=VBG]
+[Text=interjections CharacterOffsetBegin=71 CharacterOffsetEnd=84 PartOfSpeech=NNS]
+[Text=( CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=-LRB-]
+[Text=oh CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=UH]
+[Text=, CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=,]
+[Text=ah CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=UH]
+[Text=) CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=-RRB-]
+[Text=, CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=,]
+[Text=negatives CharacterOffsetBegin=95 CharacterOffsetEnd=104 PartOfSpeech=NNS]
+[Text=( CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=-LRB-]
+[Text=no CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=UH]
+[Text=, CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=,]
+[Text=not CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=RB]
+[Text=) CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=-RRB-]
+[Text=, CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=,]
+[Text=politeness CharacterOffsetBegin=116 CharacterOffsetEnd=126 PartOfSpeech=NN]
+[Text=markers CharacterOffsetBegin=127 CharacterOffsetEnd=134 PartOfSpeech=NNS]
+[Text=( CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=-LRB-]
+[Text=please CharacterOffsetBegin=136 CharacterOffsetEnd=142 PartOfSpeech=UH]
+[Text=, CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=,]
+[Text=thank CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=VBP]
+[Text=you CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=PRP]
+[Text=) CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=-RRB-]
+[Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=CC]
+[Text=the CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=DT]
+[Text=existential CharacterOffsetBegin=164 CharacterOffsetEnd=175 PartOfSpeech=JJ]
+[Text=‘ CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=``]
+[Text=there CharacterOffsetBegin=177 CharacterOffsetEnd=182 PartOfSpeech=EX]
+[Text=’ CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech='']
+[Text=( CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=-LRB-]
+[Text=there CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=EX]
+[Text=are CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=VBP]
+[Text=horses CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=NNS]
+[Text=but CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=CC]
+[Text=not CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=RB]
+[Text=unicorns CharacterOffsetBegin=210 CharacterOffsetEnd=218 PartOfSpeech=NNS]
+[Text=) CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=-RRB-]
+[Text=among CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=IN]
+[Text=others CharacterOffsetBegin=226 CharacterOffsetEnd=232 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, has-3)
+nsubj(has-3, English-1)
+advmod(has-3, also-2)
+amod(words-5, many-4)
+obj(has-3, words-5)
+case(function-11, of-6)
+advmod(unique-10, more-7)
+cc(less-9, or-8)
+conj:or(more-7, less-9)
+advmod(unique-10, less-9)
+amod(function-11, unique-10)
+nmod:of(words-5, function-11)
+punct(words-5, ,-12)
+case(interjections-14, including-13)
+nmod:including(words-5, interjections-14)
+punct(interjections-14, (-15)
+discourse(interjections-14, oh-16)
+punct(oh-16, ,-17)
+dep(oh-16, ah-18)
+punct(interjections-14, )-19)
+punct(interjections-14, ,-20)
+nmod:including(words-5, negatives-21)
+conj:and(interjections-14, negatives-21)
+punct(not-25, (-22)
+discourse(not-25, no-23)
+punct(not-25, ,-24)
+dep(negatives-21, not-25)
+punct(not-25, )-26)
+punct(interjections-14, ,-27)
+compound(markers-29, politeness-28)
+nmod:including(words-5, markers-29)
+conj:and(interjections-14, markers-29)
+punct(thank-33, (-30)
+discourse(thank-33, please-31)
+punct(thank-33, ,-32)
+dep(markers-29, thank-33)
+obj(thank-33, you-34)
+punct(thank-33, )-35)
+punct(interjections-14, ,-36)
+cc(existential-39, and-37)
+det(existential-39, the-38)
+nmod:including(words-5, existential-39)
+conj:and(interjections-14, existential-39)
+punct(existential-39, ‘-40)
+advmod(existential-39, there-41)
+punct(existential-39, ’-42)
+punct(are-45, (-43)
+expl(are-45, there-44)
+parataxis(has-3, are-45)
+nsubj(are-45, horses-46)
+cc(not-48, but-47)
+cc(unicorns-49, not-48)
+nsubj(are-45, unicorns-49)
+conj:negcc(horses-46, unicorns-49)
+punct(are-45, )-50)
+case(others-52, among-51)
+obl:among(has-3, others-52)
+punct(has-3, .-53)

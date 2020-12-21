@@ -1,0 +1,61 @@
+Document: ID=sentence-7.txt (1 sentences, 16 tokens)
+
+Sentence #1 (16 tokens):
+It was my aunt’s car which we sold at auction last year in February.
+
+Tokens:
+[Text=It CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=3 CharacterOffsetEnd=6 PartOfSpeech=VBD]
+[Text=my CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=PRP$]
+[Text=aunt CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=NN]
+[Text=’s CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=POS]
+[Text=car CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=NN]
+[Text=which CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=WDT]
+[Text=we CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP]
+[Text=sold CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=VBD]
+[Text=at CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=IN]
+[Text=auction CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=NN]
+[Text=last CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=JJ]
+[Text=year CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=IN]
+[Text=February CharacterOffsetBegin=59 CharacterOffsetEnd=67 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (PRP$ my) (NN aunt) (POS ’s))
+        (NN car)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD sold)
+              (PP (IN at)
+                (NP (NN auction)))
+              (NP-TMP (JJ last) (NN year))
+              (PP (IN in)
+                (NP (NNP February))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, car-6)
+nsubj(car-6, It-1)
+cop(car-6, was-2)
+nmod:poss(aunt-4, my-3)
+nmod:poss(car-6, aunt-4)
+case(aunt-4, ’s-5)
+obj(sold-9, which-7)
+nsubj(sold-9, we-8)
+ccomp(car-6, sold-9)
+case(auction-11, at-10)
+obl:at(sold-9, auction-11)
+amod(year-13, last-12)
+obl:tmod(sold-9, year-13)
+case(February-15, in-14)
+obl:in(sold-9, February-15)
+punct(car-6, .-16)

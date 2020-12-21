@@ -1,0 +1,66 @@
+Document: ID=sentence-21.txt (2 sentences, 25 tokens)
+
+Sentence #1 (17 tokens):
+Skill without imagination is craftsmanship and gives us many useful objects such as wickerwork picnic baskets.
+
+Tokens:
+[Text=Skill CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NN]
+[Text=without CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=IN]
+[Text=imagination CharacterOffsetBegin=14 CharacterOffsetEnd=25 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=VBZ]
+[Text=craftsmanship CharacterOffsetBegin=29 CharacterOffsetEnd=42 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=CC]
+[Text=gives CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=VBZ]
+[Text=us CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=PRP]
+[Text=many CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=JJ]
+[Text=useful CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=JJ]
+[Text=objects CharacterOffsetBegin=68 CharacterOffsetEnd=75 PartOfSpeech=NNS]
+[Text=such CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=JJ]
+[Text=as CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN]
+[Text=wickerwork CharacterOffsetBegin=84 CharacterOffsetEnd=94 PartOfSpeech=NN]
+[Text=picnic CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=NN]
+[Text=baskets CharacterOffsetBegin=102 CharacterOffsetEnd=109 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, craftsmanship-5)
+nsubj(craftsmanship-5, Skill-1)
+nsubj(gives-7, Skill-1)
+case(imagination-3, without-2)
+nmod:without(Skill-1, imagination-3)
+cop(craftsmanship-5, is-4)
+cc(gives-7, and-6)
+conj:and(craftsmanship-5, gives-7)
+iobj(gives-7, us-8)
+amod(objects-11, many-9)
+amod(objects-11, useful-10)
+obj(gives-7, objects-11)
+case(baskets-16, such-12)
+fixed(such-12, as-13)
+compound(baskets-16, wickerwork-14)
+compound(baskets-16, picnic-15)
+nmod:such_as(objects-11, baskets-16)
+punct(craftsmanship-5, .-17)
+
+Sentence #2 (8 tokens):
+Imagination without skill gives us modern art.
+
+Tokens:
+[Text=Imagination CharacterOffsetBegin=111 CharacterOffsetEnd=122 PartOfSpeech=NN]
+[Text=without CharacterOffsetBegin=123 CharacterOffsetEnd=130 PartOfSpeech=IN]
+[Text=skill CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=NN]
+[Text=gives CharacterOffsetBegin=137 CharacterOffsetEnd=142 PartOfSpeech=VBZ]
+[Text=us CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=PRP]
+[Text=modern CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=JJ]
+[Text=art CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, gives-4)
+nsubj(gives-4, Imagination-1)
+case(skill-3, without-2)
+nmod:without(Imagination-1, skill-3)
+iobj(gives-4, us-5)
+amod(art-7, modern-6)
+obj(gives-4, art-7)
+punct(gives-4, .-8)

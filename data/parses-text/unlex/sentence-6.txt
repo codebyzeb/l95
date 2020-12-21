@@ -1,0 +1,62 @@
+Document: ID=sentence-6.txt (1 sentences, 15 tokens)
+
+Sentence #1 (15 tokens):
+The horse as well as the rabbits which we wanted to eat have escaped.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=horse CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NN]
+[Text=as CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=RB]
+[Text=well CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=RB]
+[Text=as CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=DT]
+[Text=rabbits CharacterOffsetBegin=25 CharacterOffsetEnd=32 PartOfSpeech=NNS]
+[Text=which CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=WDT]
+[Text=we CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=PRP]
+[Text=wanted CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=TO]
+[Text=eat CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=VB]
+[Text=have CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=VBP]
+[Text=escaped CharacterOffsetBegin=61 CharacterOffsetEnd=68 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN horse))
+      (CONJP (RB as) (RB well) (IN as))
+      (NP
+        (NP (DT the) (NNS rabbits))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD wanted)
+              (S
+                (VP (TO to)
+                  (VP (VB eat)))))))))
+    (VP (VBP have)
+      (VP (VBN escaped)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, escaped-14)
+det(horse-2, The-1)
+nsubj(escaped-14, horse-2)
+cc(rabbits-7, as-3)
+fixed(as-3, well-4)
+fixed(as-3, as-5)
+det(rabbits-7, the-6)
+conj:and(horse-2, rabbits-7)
+obj(wanted-10, rabbits-7)
+nsubj:xsubj(eat-12, rabbits-7)
+nsubj(escaped-14, rabbits-7)
+ref(rabbits-7, which-8)
+nsubj(wanted-10, we-9)
+acl:relcl(rabbits-7, wanted-10)
+mark(eat-12, to-11)
+xcomp(wanted-10, eat-12)
+aux(escaped-14, have-13)
+punct(escaped-14, .-15)

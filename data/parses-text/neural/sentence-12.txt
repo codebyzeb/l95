@@ -1,0 +1,58 @@
+Document: ID=sentence-12.txt (1 sentences, 25 tokens)
+
+Sentence #1 (25 tokens):
+It won’t rain but there might be snow on high ground if the temperature stays about the same over the next 24 hours.
+
+Tokens:
+[Text=It CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=PRP]
+[Text=wo CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=MD]
+[Text=n’t CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=RB]
+[Text=rain CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB]
+[Text=but CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=CC]
+[Text=there CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=EX]
+[Text=might CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=MD]
+[Text=be CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=VB]
+[Text=snow CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=NN]
+[Text=on CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=IN]
+[Text=high CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=JJ]
+[Text=ground CharacterOffsetBegin=46 CharacterOffsetEnd=52 PartOfSpeech=NN]
+[Text=if CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=DT]
+[Text=temperature CharacterOffsetBegin=60 CharacterOffsetEnd=71 PartOfSpeech=NN]
+[Text=stays CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=VBZ]
+[Text=about CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=DT]
+[Text=same CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=JJ]
+[Text=over CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=DT]
+[Text=next CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=JJ]
+[Text=24 CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=CD]
+[Text=hours CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, rain-4)
+nsubj(rain-4, It-1)
+aux(rain-4, wo-2)
+advmod(rain-4, n’t-3)
+cc(snow-9, but-5)
+expl(snow-9, there-6)
+aux(snow-9, might-7)
+cop(snow-9, be-8)
+conj:but(rain-4, snow-9)
+case(ground-12, on-10)
+amod(ground-12, high-11)
+nmod:on(snow-9, ground-12)
+mark(stays-16, if-13)
+det(temperature-15, the-14)
+nsubj(stays-16, temperature-15)
+advcl:if(snow-9, stays-16)
+case(same-19, about-17)
+det(same-19, the-18)
+obl:about(stays-16, same-19)
+case(hours-24, over-20)
+det(hours-24, the-21)
+amod(hours-24, next-22)
+nummod(hours-24, 24-23)
+nmod:over(same-19, hours-24)
+punct(rain-4, .-25)

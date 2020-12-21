@@ -1,0 +1,132 @@
+Document: ID=sentence-19.txt (1 sentences, 39 tokens)
+
+Sentence #1 (39 tokens):
+Thus the EM-trained “pure HMM” tagger is probably best suited to cases where no training data is available, for example, when tagging languages for which no data was previously hand-tagged.
+
+Tokens:
+[Text=Thus CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=RB]
+[Text=the CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=DT]
+[Text=EM CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=NNP]
+[Text=- CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=HYPH]
+[Text=trained CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=VBN]
+[Text=“ CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=``]
+[Text=pure CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=JJ]
+[Text=HMM CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=NN]
+[Text=” CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech='']
+[Text=tagger CharacterOffsetBegin=31 CharacterOffsetEnd=37 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=VBZ]
+[Text=probably CharacterOffsetBegin=41 CharacterOffsetEnd=49 PartOfSpeech=RB]
+[Text=best CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=JJS]
+[Text=suited CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=JJ]
+[Text=to CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=IN]
+[Text=cases CharacterOffsetBegin=65 CharacterOffsetEnd=70 PartOfSpeech=NNS]
+[Text=where CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=WRB]
+[Text=no CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=DT]
+[Text=training CharacterOffsetBegin=80 CharacterOffsetEnd=88 PartOfSpeech=NN]
+[Text=data CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=NNS]
+[Text=is CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=VBZ]
+[Text=available CharacterOffsetBegin=97 CharacterOffsetEnd=106 PartOfSpeech=JJ]
+[Text=, CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=,]
+[Text=for CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=IN]
+[Text=example CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=,]
+[Text=when CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=WRB]
+[Text=tagging CharacterOffsetBegin=126 CharacterOffsetEnd=133 PartOfSpeech=VBG]
+[Text=languages CharacterOffsetBegin=134 CharacterOffsetEnd=143 PartOfSpeech=NNS]
+[Text=for CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=IN]
+[Text=which CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=WDT]
+[Text=no CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=DT]
+[Text=data CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=NNS]
+[Text=was CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=VBD]
+[Text=previously CharacterOffsetBegin=166 CharacterOffsetEnd=176 PartOfSpeech=RB]
+[Text=hand CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=NN]
+[Text=- CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=HYPH]
+[Text=tagged CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (DT the) (NNP EM))
+    (VP (HYPH -)
+      (VP (VBN trained)
+        (SBAR
+          (S (`` “)
+            (NP (JJ pure) (NN HMM) ('' ”) (NN tagger))
+            (VP (VBZ is)
+              (ADVP (RB probably))
+              (ADJP (JJS best) (JJ suited)
+                (PP (IN to)
+                  (NP
+                    (NP (NNS cases))
+                    (SBAR
+                      (WHADVP (WRB where))
+                      (S
+                        (NP (DT no) (NN training) (NNS data))
+                        (VP (VBZ is)
+                          (ADJP (JJ available)))))))))))
+        (FRAG (, ,)
+          (PP (IN for)
+            (NP (NN example)))
+          (, ,)
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (VP (VBG tagging)
+                (NP
+                  (NP (NNS languages))
+                  (SBAR
+                    (WHPP (IN for)
+                      (WHNP (WDT which)))
+                    (S
+                      (NP (DT no) (NNS data))
+                      (VP (VBD was)
+                        (ADVP (RB previously))
+                        (NP (NN hand))))))
+                (VP (HYPH -)
+                  (VP (VBN tagged)))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, trained-5)
+advmod(trained-5, Thus-1)
+det(EM-3, the-2)
+nsubj(trained-5, EM-3)
+punct(trained-5, --4)
+punct(suited-14, “-6)
+amod(tagger-10, pure-7)
+compound(tagger-10, HMM-8)
+punct(tagger-10, ”-9)
+nsubj(suited-14, tagger-10)
+cop(suited-14, is-11)
+advmod(suited-14, probably-12)
+advmod(suited-14, best-13)
+ccomp(trained-5, suited-14)
+case(cases-16, to-15)
+obl:to(suited-14, cases-16)
+advmod(available-22, where-17)
+det(data-20, no-18)
+compound(data-20, training-19)
+nsubj(available-22, data-20)
+cop(available-22, is-21)
+acl:relcl(cases-16, available-22)
+punct(tagging-28, ,-23)
+case(example-25, for-24)
+obl:for(tagging-28, example-25)
+punct(tagging-28, ,-26)
+advmod(tagging-28, when-27)
+dep(trained-5, tagging-28)
+obj(tagging-28, languages-29)
+obl:for(hand-36, languages-29)
+case(which-31, for-30)
+ref(languages-29, which-31)
+det(data-33, no-32)
+nsubj(hand-36, data-33)
+cop(hand-36, was-34)
+advmod(hand-36, previously-35)
+acl:relcl(languages-29, hand-36)
+punct(tagged-38, --37)
+dep(tagging-28, tagged-38)
+punct(trained-5, .-39)

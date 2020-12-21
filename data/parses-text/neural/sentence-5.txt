@@ -1,0 +1,35 @@
+Document: ID=sentence-5.txt (1 sentences, 13 tokens)
+
+Sentence #1 (13 tokens):
+The horse which Kim sometimes rides is more bad tempered than mine.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=horse CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NN]
+[Text=which CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=WDT]
+[Text=Kim CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=NNP]
+[Text=sometimes CharacterOffsetBegin=20 CharacterOffsetEnd=29 PartOfSpeech=RB]
+[Text=rides CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=VBZ]
+[Text=is CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=VBZ]
+[Text=more CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=RBR]
+[Text=bad CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=JJ]
+[Text=tempered CharacterOffsetBegin=48 CharacterOffsetEnd=56 PartOfSpeech=VBN]
+[Text=than CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=IN]
+[Text=mine CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, bad-9)
+det(horse-2, The-1)
+obj(rides-6, horse-2)
+nsubj(bad-9, horse-2)
+ref(horse-2, which-3)
+nsubj(rides-6, Kim-4)
+advmod(rides-6, sometimes-5)
+acl:relcl(horse-2, rides-6)
+cop(bad-9, is-7)
+advmod(bad-9, more-8)
+xcomp(bad-9, tempered-10)
+case(mine-12, than-11)
+obl:than(tempered-10, mine-12)
+punct(bad-9, .-13)

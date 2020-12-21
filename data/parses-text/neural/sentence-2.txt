@@ -1,0 +1,31 @@
+Document: ID=sentence-2.txt (1 sentences, 11 tokens)
+
+Sentence #1 (11 tokens):
+At least two men broke in and stole my TV.
+
+Tokens:
+[Text=At CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=IN]
+[Text=least CharacterOffsetBegin=3 CharacterOffsetEnd=8 PartOfSpeech=JJS]
+[Text=two CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CD]
+[Text=men CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=NNS]
+[Text=broke CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=VBD]
+[Text=in CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=IN]
+[Text=and CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=CC]
+[Text=stole CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=VBD]
+[Text=my CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=PRP$]
+[Text=TV CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, broke-5)
+case(least-2, At-1)
+obl:npmod(two-3, least-2)
+nummod(men-4, two-3)
+nsubj(broke-5, men-4)
+nsubj(stole-8, men-4)
+compound:prt(broke-5, in-6)
+cc(stole-8, and-7)
+conj:and(broke-5, stole-8)
+nmod:poss(TV-10, my-9)
+obj(stole-8, TV-10)
+punct(broke-5, .-11)

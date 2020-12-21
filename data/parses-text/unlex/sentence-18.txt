@@ -1,0 +1,178 @@
+Document: ID=sentence-18.txt (1 sentences, 56 tokens)
+
+Sentence #1 (56 tokens):
+The slightly simplified version of the Viterbi algorithm that we present takes as input a single HMM and a sequence of observed words O = (o1, o2, ...oT ) and returns the most probable state/tag sequence Q = (q1, q2, qT ) together with its probability.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=slightly CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=RB]
+[Text=simplified CharacterOffsetBegin=13 CharacterOffsetEnd=23 PartOfSpeech=VBN]
+[Text=version CharacterOffsetBegin=24 CharacterOffsetEnd=31 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT]
+[Text=Viterbi CharacterOffsetBegin=39 CharacterOffsetEnd=46 PartOfSpeech=NNP]
+[Text=algorithm CharacterOffsetBegin=47 CharacterOffsetEnd=56 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=WDT]
+[Text=we CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=PRP]
+[Text=present CharacterOffsetBegin=65 CharacterOffsetEnd=72 PartOfSpeech=VBP]
+[Text=takes CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=VBZ]
+[Text=as CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=IN]
+[Text=input CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NN]
+[Text=a CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=DT]
+[Text=single CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=JJ]
+[Text=HMM CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=CC]
+[Text=a CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=DT]
+[Text=sequence CharacterOffsetBegin=107 CharacterOffsetEnd=115 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN]
+[Text=observed CharacterOffsetBegin=119 CharacterOffsetEnd=127 PartOfSpeech=VBN]
+[Text=words CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=NNS]
+[Text=O CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=NN]
+[Text== CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=SYM]
+[Text=( CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=-LRB-]
+[Text=o1 CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=,]
+[Text=o2 CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=,]
+[Text=... CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=:]
+[Text=oT CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=NN]
+[Text=) CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=-RRB-]
+[Text=and CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=CC]
+[Text=returns CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=VBZ]
+[Text=the CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT]
+[Text=most CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=RBS]
+[Text=probable CharacterOffsetBegin=176 CharacterOffsetEnd=184 PartOfSpeech=JJ]
+[Text=state CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=NN]
+[Text=/ CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=HYPH]
+[Text=tag CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=NN]
+[Text=sequence CharacterOffsetBegin=195 CharacterOffsetEnd=203 PartOfSpeech=NN]
+[Text=Q CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=NN]
+[Text== CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=SYM]
+[Text=( CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=-LRB-]
+[Text=q1 CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=,]
+[Text=q2 CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=,]
+[Text=qT CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=NN]
+[Text=) CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=-RRB-]
+[Text=together CharacterOffsetBegin=222 CharacterOffsetEnd=230 PartOfSpeech=RB]
+[Text=with CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=IN]
+[Text=its CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=PRP$]
+[Text=probability CharacterOffsetBegin=240 CharacterOffsetEnd=251 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (RB slightly) (VBN simplified) (NN version))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NNP Viterbi) (NN algorithm))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (NP (PRP we))
+              (VP (VBP present)))))))
+    (VP
+      (VP (VBZ takes)
+        (PP (IN as)
+          (NP (NN input)))
+        (NP
+          (NP (DT a) (JJ single) (NN HMM))
+          (CC and)
+          (NP
+            (NP (DT a) (NN sequence))
+            (PP (IN of)
+              (NP
+                (NP (VBN observed) (NNS words))
+                (NP
+                  (NP (NN O) (SYM =))
+                  (-LRB- -LRB-)
+                  (NP
+                    (NP
+                      (NP (NN o1))
+                      (, ,)
+                      (NP (NN o2))
+                      (, ,))
+                    (: ...)
+                    (NP (NN oT)))
+                  (-RRB- -RRB-)))))))
+      (CC and)
+      (VP (VBZ returns)
+        (NP (DT the)
+          (ADJP (RBS most) (JJ probable))
+          (NML (NN state) (HYPH /) (NN tag))
+          (NN sequence)
+          (PRN
+            (FRAG
+              (NP (NN Q) (SYM =))
+              (-LRB- -LRB-)
+              (NP (NN q1) (, ,) (NN q2) (, ,) (NN qT))
+              (-RRB- -RRB-))))
+        (ADVP (RB together))
+        (PP (IN with)
+          (NP (PRP$ its) (NN probability)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, takes-12)
+det(version-4, The-1)
+advmod(version-4, slightly-2)
+amod(version-4, simplified-3)
+nsubj(takes-12, version-4)
+nsubj(returns-35, version-4)
+case(algorithm-8, of-5)
+det(algorithm-8, the-6)
+compound(algorithm-8, Viterbi-7)
+nmod:of(version-4, algorithm-8)
+obj(present-11, algorithm-8)
+ref(algorithm-8, that-9)
+nsubj(present-11, we-10)
+acl:relcl(algorithm-8, present-11)
+case(input-14, as-13)
+obl:as(takes-12, input-14)
+det(HMM-17, a-15)
+amod(HMM-17, single-16)
+obj(takes-12, HMM-17)
+cc(sequence-20, and-18)
+det(sequence-20, a-19)
+obj(takes-12, sequence-20)
+conj:and(HMM-17, sequence-20)
+case(words-23, of-21)
+amod(words-23, observed-22)
+nmod:of(sequence-20, words-23)
+dep(words-23, O-24)
+dep(O-24, =-25)
+punct(O-24, (-26)
+dep(O-24, o1-27)
+punct(o1-27, ,-28)
+appos(o1-27, o2-29)
+punct(o1-27, ,-30)
+punct(o1-27, ...-31)
+dep(o1-27, oT-32)
+punct(O-24, )-33)
+cc(returns-35, and-34)
+conj:and(takes-12, returns-35)
+det(sequence-42, the-36)
+advmod(probable-38, most-37)
+amod(sequence-42, probable-38)
+compound(tag-41, state-39)
+punct(tag-41, /-40)
+compound(sequence-42, tag-41)
+obj(returns-35, sequence-42)
+dep(sequence-42, Q-43)
+dep(Q-43, =-44)
+punct(Q-43, (-45)
+compound(qT-50, q1-46)
+punct(qT-50, ,-47)
+dep(qT-50, q2-48)
+punct(qT-50, ,-49)
+dep(Q-43, qT-50)
+punct(Q-43, )-51)
+advmod(returns-35, together-52)
+case(probability-55, with-53)
+nmod:poss(probability-55, its-54)
+obl:with(returns-35, probability-55)
+punct(takes-12, .-56)

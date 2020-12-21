@@ -1,0 +1,197 @@
+Document: ID=sentence-17.txt (2 sentences, 58 tokens)
+
+Sentence #1 (18 tokens):
+The Penn Treebank tagset was culled from the original 87-tag tagset for the Brown Corpus.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=Penn CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP]
+[Text=Treebank CharacterOffsetBegin=9 CharacterOffsetEnd=17 PartOfSpeech=NNP]
+[Text=tagset CharacterOffsetBegin=18 CharacterOffsetEnd=24 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=VBD]
+[Text=culled CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=VBN]
+[Text=from CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT]
+[Text=original CharacterOffsetBegin=45 CharacterOffsetEnd=53 PartOfSpeech=JJ]
+[Text=87 CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=CD]
+[Text=- CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=HYPH]
+[Text=tag CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=NN]
+[Text=tagset CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=DT]
+[Text=Brown CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NNP]
+[Text=Corpus CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (DT The) (NNP Penn) (NNP Treebank) (NN tagset))
+    (VP (VBD was)
+      (VP (VBN culled)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (JJ original)
+              (NML (CD 87) (HYPH -) (NN tag))
+              (NN tagset))
+            (PP (IN for)
+              (NP (DT the) (NNP Brown) (NNP Corpus)))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, culled-6)
+det(tagset-4, The-1)
+compound(tagset-4, Penn-2)
+compound(tagset-4, Treebank-3)
+nsubj:pass(culled-6, tagset-4)
+aux:pass(culled-6, was-5)
+case(tagset-13, from-7)
+det(tagset-13, the-8)
+amod(tagset-13, original-9)
+nummod(tag-12, 87-10)
+punct(tag-12, --11)
+compound(tagset-13, tag-12)
+obl:from(culled-6, tagset-13)
+case(Corpus-17, for-14)
+det(Corpus-17, the-15)
+compound(Corpus-17, Brown-16)
+nmod:for(tagset-13, Corpus-17)
+punct(culled-6, .-18)
+
+Sentence #2 (40 tokens):
+For example the original Brown and C5 tagsets include a separate tag for each of the different forms of the verbs do (e.g. C5 tag VDD for did and VDG tag for doing), be and have.
+
+Tokens:
+[Text=For CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=IN]
+[Text=example CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=NN]
+[Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT]
+[Text=original CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=JJ]
+[Text=Brown CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=CC]
+[Text=C5 CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=NN]
+[Text=tagsets CharacterOffsetBegin=128 CharacterOffsetEnd=135 PartOfSpeech=NNS]
+[Text=include CharacterOffsetBegin=136 CharacterOffsetEnd=143 PartOfSpeech=VBP]
+[Text=a CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=DT]
+[Text=separate CharacterOffsetBegin=146 CharacterOffsetEnd=154 PartOfSpeech=JJ]
+[Text=tag CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=IN]
+[Text=each CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=DT]
+[Text=of CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=DT]
+[Text=different CharacterOffsetBegin=175 CharacterOffsetEnd=184 PartOfSpeech=JJ]
+[Text=forms CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=DT]
+[Text=verbs CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=NNS]
+[Text=do CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=VBP]
+[Text=( CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=-LRB-]
+[Text=e.g. CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=FW]
+[Text=C5 CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=NN]
+[Text=tag CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=NN]
+[Text=VDD CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=IN]
+[Text=did CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=VBD]
+[Text=and CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=CC]
+[Text=VDG CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=NNP]
+[Text=tag CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=IN]
+[Text=doing CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=VBG]
+[Text=) CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=-RRB-]
+[Text=, CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=,]
+[Text=be CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=VB]
+[Text=and CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=CC]
+[Text=have CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=VB]
+[Text=. CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (NP
+      (NP (DT the) (JJ original) (NNP Brown))
+      (CC and)
+      (NP (NN C5) (NNS tagsets)))
+    (VP (VBP include)
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (JJ separate) (NN tag))
+            (PP (IN for)
+              (NP
+                (NP (DT each))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJ different) (NNS forms))
+                    (PP (IN of)
+                      (NP (DT the) (NNS verbs))))))))
+          (VP (VBP do)
+            (NP
+              (NP (-LRB- -LRB-)
+                (ADVP (FW e.g.))
+                (NP (NN C5) (NN tag) (NN VDD))
+                (SBAR (IN for)
+                  (S
+                    (VP
+                      (VP (VBD did))
+                      (CC and)
+                      (VP
+                        (NP (NNP VDG) (NN tag))
+                        (PP (IN for)
+                          (S
+                            (VP (VBG doing))))))))
+                (-RRB- -RRB-))
+              (, ,)
+              (S
+                (VP
+                  (VP (VB be))
+                  (CC and)
+                  (VP (VB have)))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, include-9)
+case(example-2, For-1)
+obl:for(include-9, example-2)
+det(Brown-5, the-3)
+amod(Brown-5, original-4)
+nsubj(include-9, Brown-5)
+cc(tagsets-8, and-6)
+compound(tagsets-8, C5-7)
+conj:and(Brown-5, tagsets-8)
+nsubj(include-9, tagsets-8)
+det(tag-12, a-10)
+amod(tag-12, separate-11)
+nsubj(do-22, tag-12)
+case(each-14, for-13)
+nmod:for(tag-12, each-14)
+case(forms-18, of-15)
+det(forms-18, the-16)
+amod(forms-18, different-17)
+nmod:of(each-14, forms-18)
+case(verbs-21, of-19)
+det(verbs-21, the-20)
+nmod:of(forms-18, verbs-21)
+ccomp(include-9, do-22)
+punct(VDD-27, (-23)
+advmod(VDD-27, e.g.-24)
+compound(VDD-27, C5-25)
+compound(VDD-27, tag-26)
+obj(do-22, VDD-27)
+mark(did-29, for-28)
+dep(VDD-27, did-29)
+cc(tag-32, and-30)
+compound(tag-32, VDG-31)
+dep(VDD-27, tag-32)
+conj:and(did-29, tag-32)
+mark(doing-34, for-33)
+advcl:for(tag-32, doing-34)
+punct(VDD-27, )-35)
+punct(VDD-27, ,-36)
+dep(VDD-27, be-37)
+cc(have-39, and-38)
+dep(VDD-27, have-39)
+conj:and(be-37, have-39)
+punct(include-9, .-40)

@@ -1,0 +1,26 @@
+1	The	_	_	DT	_	5	det	_	_
+2	long	_	_	JJ	_	5	amod	_	_
+3	and	_	_	CC	_	4	cc	_	_
+4	lonely	_	_	JJ	_	2	conj	_	_
+5	road	_	_	NN	_	8	nsubj	_	_
+6	to	_	_	IN	_	7	case	_	_
+7	redemption	_	_	NN	_	5	nmod	_	_
+8	begins	_	_	VBZ	_	0	root	_	_
+9	with	_	_	IN	_	12	case	_	_
+10	self	_	_	NN	_	12	compound	_	_
+11	-	_	_	HYPH	_	12	punct	_	_
+12	reflection	_	_	NN	_	8	obl	_	_
+13	:	_	_	:	_	8	punct	_	_
+14	the	_	_	DT	_	15	det	_	_
+15	need	_	_	NN	_	8	obj	_	_
+16	to	_	_	TO	_	17	mark	_	_
+17	delve	_	_	VB	_	8	parataxis	_	_
+18	inwards	_	_	RB	_	17	advmod	_	_
+19	to	_	_	IN	_	21	case	_	_
+20	deconstruct	_	_	NN	_	21	compound	_	_
+21	layers	_	_	NNS	_	17	obl	_	_
+22	of	_	_	IN	_	24	case	_	_
+23	psychological	_	_	JJ	_	24	amod	_	_
+24	obfuscation	_	_	NN	_	21	nmod	_	_
+25	.	_	_	.	_	8	punct	_	_
+

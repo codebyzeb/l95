@@ -1,0 +1,1 @@
+My wildest dream is to build a POS tagger which processes 10K words per second and uses only 1MB of RAM, but it may prove too hard. 

@@ -1,0 +1,39 @@
+Document: ID=sentence-1.txt (1 sentences, 10 tokens)
+
+Sentence #1 (10 tokens):
+The old car broke down in the car park.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=old CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=JJ]
+[Text=car CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NN]
+[Text=broke CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=VBD]
+[Text=down CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=RP]
+[Text=in CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT]
+[Text=car CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=NN]
+[Text=park CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (DT The) (JJ old) (NN car))
+    (VP (VBD broke)
+      (PRT (RP down))
+      (PP (IN in)
+        (NP (DT the) (NN car) (NN park))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, broke-4)
+det(car-3, The-1)
+amod(car-3, old-2)
+nsubj(broke-4, car-3)
+compound:prt(broke-4, down-5)
+case(park-9, in-6)
+det(park-9, the-7)
+compound(park-9, car-8)
+obl:in(broke-4, park-9)
+punct(broke-4, .-10)

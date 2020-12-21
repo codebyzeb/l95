@@ -1,0 +1,62 @@
+Document: ID=sentence-11.txt (1 sentences, 27 tokens)
+
+Sentence #1 (27 tokens):
+Letters delivered on time by old-fashioned means are increasingly rare, so it is as well that that is not the only option available.
+
+Tokens:
+[Text=Letters CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNPS]
+[Text=delivered CharacterOffsetBegin=8 CharacterOffsetEnd=17 PartOfSpeech=VBD]
+[Text=on CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=IN]
+[Text=time CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=NN]
+[Text=by CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN]
+[Text=old CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=JJ]
+[Text=- CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=HYPH]
+[Text=fashioned CharacterOffsetBegin=33 CharacterOffsetEnd=42 PartOfSpeech=JJ]
+[Text=means CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=NNS]
+[Text=are CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=VBP]
+[Text=increasingly CharacterOffsetBegin=53 CharacterOffsetEnd=65 PartOfSpeech=RB]
+[Text=rare CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=JJ]
+[Text=, CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=,]
+[Text=so CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN]
+[Text=it CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=VBZ]
+[Text=as CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=RB]
+[Text=well CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=RB]
+[Text=that CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=IN]
+[Text=that CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=DT]
+[Text=is CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=VBZ]
+[Text=not CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=RB]
+[Text=the CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=DT]
+[Text=only CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=JJ]
+[Text=option CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=NN]
+[Text=available CharacterOffsetBegin=122 CharacterOffsetEnd=131 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, rare-12)
+nsubj(delivered-2, Letters-1)
+csubj(rare-12, delivered-2)
+case(time-4, on-3)
+obl:on(delivered-2, time-4)
+case(means-9, by-5)
+amod(fashioned-8, old-6)
+punct(fashioned-8, --7)
+amod(means-9, fashioned-8)
+obl:by(delivered-2, means-9)
+cop(rare-12, are-10)
+advmod(rare-12, increasingly-11)
+punct(rare-12, ,-13)
+mark(option-25, so-14)
+nsubj(option-25, it-15)
+cop(option-25, is-16)
+cc(option-25, as-17)
+fixed(as-17, well-18)
+fixed(as-17, that-19)
+nsubj(option-25, that-20)
+cop(option-25, is-21)
+advmod(option-25, not-22)
+det(option-25, the-23)
+amod(option-25, only-24)
+advcl:so(rare-12, option-25)
+amod(option-25, available-26)
+punct(rare-12, .-27)
