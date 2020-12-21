@@ -20,7 +20,7 @@ All scripts can be found in `scripts/`. The `dep_to_latex.py` and `table_generat
 
 The `parse_all.sh` script runs the Stanford parsers (not distributed here). The `parsers/` directory does include the three configuration files used for parsing. To run the script, install [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP) in the `parsers/` directory and also download the Stanford [Shift Reduce parser models](https://nlp.stanford.edu/software/srparser.html) and place them in the CoreNLP folder. The parsing script can then be run:
 
-  $ scripts/parse_all.sh neural conllu
+    scripts/parse_all.sh neural conllu
 
 This runs the Neural parser and outputs the sentences in CoNLL-U format.
 
@@ -28,6 +28,6 @@ This runs the Neural parser and outputs the sentences in CoNLL-U format.
 
 The `evaluation/` directory contains the gold standards and outputs of the parsers combined into single CoNLL-U files, `gold.conllu`, `neural.conllu`, `sr.conllu` and `unlex.conllu`. The `eval_both_right.xml` and `eval_label_right.xml` are configuration files for running MaltEval using the LabelRight and BothRight metrics, used to produce the results found in the `evaluation/both_right/` and `evaluation/label_right/` directories respectively. An example command to run MaltEval is:
 
-  $ java -jar MaltEval.jar -e eval_label_right.xml -s neural.conllu sr.conllu unlex.conllu -g gold.conllu
+    java -jar MaltEval.jar -e eval_label_right.xml -s neural.conllu sr.conllu unlex.conllu -g gold.conllu
   
 This requires placing the MaltEval script in the `evaluation/` directory.
