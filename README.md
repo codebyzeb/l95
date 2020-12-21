@@ -18,7 +18,7 @@ The raw sentences are in `data/raw-sentence.txt` with the pre-processed sentence
 
 All scripts can be found in `scripts/`. The `dep_to_latex.py` and `table_generator.py` scripts are utility scripts used to produce latex diagrams and tables for the report. The `macro_micro.py` script is used to calculate macroaverage and microaverage scores, given a file containing the output of the MaltEval script. The `pre-processor.py` script was used to produce the sentences in `data/pre-processed/` given the input `data/raw-sentences.txt`. 
 
-The `parse_all.sh` script runs the Stanford parsers which need to be placed in the `parsers/` directory (not distributed here). The `parsers/` directory does include the three configuration files used for parsing. To run the script, install [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP) in the `parsers/` directory and also download the Stanford [Shift Reduce parser models](https://nlp.stanford.edu/software/srparser.html) and place them in the CoreNLP folder. The parsing script can then be run:
+The `parse_all.sh` script runs the Stanford parsers (not distributed here). The `parsers/` directory does include the three configuration files used for parsing. To run the script, install [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP) in the `parsers/` directory and also download the Stanford [Shift Reduce parser models](https://nlp.stanford.edu/software/srparser.html) and place them in the CoreNLP folder. The parsing script can then be run:
 
   $ scripts/parse_all.sh neural conllu
 
