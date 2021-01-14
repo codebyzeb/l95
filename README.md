@@ -1,6 +1,6 @@
 # L95 Parser Evaluation Project
 
-This repository contains the report, scripts, parses and gold standards produced for my project for the L95 course of the Computer Science Part III course. 
+This repository contains the report, scripts, parses and gold standards produced for my project as part of the L95 course on Introduction to Natural Language Syntax and Parsing, offered by Part III of the Computer Science Tripos at Cambridge University.
 
 ## Report
 
